@@ -1,0 +1,24 @@
+{
+  "name": "cypress_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --config-file cypress-config.json",
+    "test:headed": "npx cypress open --config-file cypress-config.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-dotenv": "^2.0.0",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0"
+  }
+}

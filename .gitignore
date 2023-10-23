@@ -1,0 +1,5 @@
+node_modules
+cypress.env.json
+cypress/Results
+cypress/downloads/*
+cypress/screenshots
